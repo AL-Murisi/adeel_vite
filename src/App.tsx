@@ -13,7 +13,7 @@ function App() {
         <NavBar />
 
         <section id="home">
-          <Home /> gfgf
+          <Home />
         </section>
 
         <section id="products">
