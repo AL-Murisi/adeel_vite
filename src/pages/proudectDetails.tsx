@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-const proudectDetails = () => {
-  return <div></div>;
-};
+// const proudectDetails = () => {
+//   return <div></div>;
+// };
 
-export default proudectDetails;
+// export default proudectDetails;

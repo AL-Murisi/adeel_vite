@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
-import SanityClient from "../src/client";
+import SanityClient from "../client";
 import ModeToggle from "./Themtoggle";
 const NavBar = () => {
   const [data, setData] = useState([] as any[]);

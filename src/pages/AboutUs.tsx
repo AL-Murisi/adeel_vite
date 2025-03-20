@@ -1,6 +1,6 @@
 import { FaTractor, FaLeaf, FaShieldAlt } from "react-icons/fa";
-import React, { useEffect, useState } from "react";
-import sanityClient from "../client";
+import { useEffect, useState } from "react";
+import sanityClient from "../../client";
 export default function AboutUs() {
   const [postData, setData] = useState([] as any[]);
   useEffect(() => {

@@ -7,7 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../../components/ui/carousel";
-import sanityClient from "../client";
+import sanityClient from "../../client";
 import { CardContent } from "../../components/ui/card";
 const OurProducts = () => {
   const plugin = React.useRef(Autoplay({ delay: 2000 }));
@@ -113,7 +113,7 @@ const OurProducts = () => {
                   <img
                     alt={product.product_imag.alt || "No description"}
                     src={product.product_imag.asset.url}
-                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 shadow-lg dark:shadow-[#424a60] shadow-black xl:aspect-7/8 transition-transform duration-300 ease-in-out group-hover:-translate-x-2 group-hover:translate-x-2"
+                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 shadow-lg dark:shadow-[#424a60] shadow-black xl:aspect-7/8 transition-transform duration-300 ease-in-out  group-hover:translate-x-2"
                   />
                   <h3 className="mt-4 text-lg font-bold dark:text-white text-black">
                     {product.product_name}

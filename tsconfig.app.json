@@ -33,7 +33,7 @@
     "../src/components/Themtoggle.tsx",
     "vite-env.d.ts",
     "src/main.tsx",
-    "src/client.tsx",
+    "client.tsx",
     "components/theme-provider.tsx",
     "src/pages",
     "src/lib",

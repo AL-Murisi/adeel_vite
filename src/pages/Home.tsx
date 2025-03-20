@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
-import sanityClient from "../client";
+import sanityClient from "../../client";
 const Home = () => {
   const [Data, setData] = useState([] as any[]);
   useEffect(() => {
